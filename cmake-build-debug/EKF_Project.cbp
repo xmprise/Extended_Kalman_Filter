@@ -8,100 +8,104 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug"/>
+				<Option working_dir="/home/wj/Extended_Kalman_Filter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug"/>
+				<Option working_dir="/home/wj/Extended_Kalman_Filter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug"/>
+				<Option working_dir="/home/wj/Extended_Kalman_Filter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="EKF_Project">
-				<Option output="/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/EKF_Project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug"/>
+				<Option output="/home/wj/Extended_Kalman_Filter/cmake-build-debug/EKF_Project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wj/Extended_Kalman_Filter/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 EKF_Project"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 EKF_Project"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="EKF_Project/fast">
-				<Option output="/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/EKF_Project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug"/>
+				<Option output="/home/wj/Extended_Kalman_Filter/cmake-build-debug/EKF_Project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wj/Extended_Kalman_Filter/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 EKF_Project/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/woojinjung/CLionProjects/EKF_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 EKF_Project/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wj/Extended_Kalman_Filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/woojinjung/CLionProjects/EKF_Project/src/FusionEKF.cpp">
+		<Unit filename="/home/wj/Extended_Kalman_Filter/src/FusionEKF.cpp">
 			<Option target="EKF_Project"/>
 		</Unit>
-		<Unit filename="/Users/woojinjung/CLionProjects/EKF_Project/src/FusionEKF.h">
+		<Unit filename="/home/wj/Extended_Kalman_Filter/src/FusionEKF.h">
 			<Option target="EKF_Project"/>
 		</Unit>
-		<Unit filename="/Users/woojinjung/CLionProjects/EKF_Project/src/kalman_filter.cpp">
+		<Unit filename="/home/wj/Extended_Kalman_Filter/src/kalman_filter.cpp">
 			<Option target="EKF_Project"/>
 		</Unit>
-		<Unit filename="/Users/woojinjung/CLionProjects/EKF_Project/src/kalman_filter.h">
+		<Unit filename="/home/wj/Extended_Kalman_Filter/src/kalman_filter.h">
 			<Option target="EKF_Project"/>
 		</Unit>
-		<Unit filename="/Users/woojinjung/CLionProjects/EKF_Project/src/main.cpp">
+		<Unit filename="/home/wj/Extended_Kalman_Filter/src/main.cpp">
 			<Option target="EKF_Project"/>
 		</Unit>
-		<Unit filename="/Users/woojinjung/CLionProjects/EKF_Project/src/tools.cpp">
+		<Unit filename="/home/wj/Extended_Kalman_Filter/src/tools.cpp">
 			<Option target="EKF_Project"/>
 		</Unit>
-		<Unit filename="/Users/woojinjung/CLionProjects/EKF_Project/src/tools.h">
+		<Unit filename="/home/wj/Extended_Kalman_Filter/src/tools.h">
 			<Option target="EKF_Project"/>
 		</Unit>
-		<Unit filename="/Users/woojinjung/CLionProjects/EKF_Project/CMakeLists.txt">
+		<Unit filename="/home/wj/Extended_Kalman_Filter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
